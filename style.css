@@ -42,8 +42,19 @@ h1 {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
 }
+h2 {
+	text-decoration: underline;
+	color: rgb(255,255,255);
+	font-family: Impact, Charcoal, sans-serif;
+	margin-left: 75px;
+	margin-top: 75px;
+}
 
 video {
 	padding: 25px;
 	align-items: left;
+}
+
+hr {
+	margin: 75px;
 }
