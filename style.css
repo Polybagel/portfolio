@@ -1,5 +1,7 @@
 body {
-	background-color: rgb(14,14,16);
+	/*background-color: rgb(14,14,16);*/
+	background-image: linear-gradient(rgb(34,34,36),rgb(14,14,16));
+
 	padding-bottom: 250px;
 }
 
@@ -9,10 +11,11 @@ p {
 	border-left-style: solid;
 	border-color: Tomato;
 	margin-left: 75px;
-	margin-top: 125px;
+	margin-top: 75px;
 	padding-left: 18px;
 	font-size: 25px;
 	width: 550px;
+	background-image: linear-gradient(to right, rgba(255,99,71,0.1), rgba(0,0,0,0));
 }
 
 p a:link, p a:visited {
@@ -28,7 +31,9 @@ p a:hover, p a:active {
 ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: rgb(30,30,30);
+	/*background-color: rgb(20,20,22);*/
+	border-radius: 15px;
+	background-image: linear-gradient(to right, rgb(20,20,22), rgb(30,30,32));
 }
 
 li {
@@ -43,6 +48,7 @@ li a {
 	color: rgb(215,215,215);
 	font-size: 18px;
 	transition: color 0.2s, font-size 0.25s;
+	text-shadow: 0px 0px 4px black;
 }
 
 li a:hover {
