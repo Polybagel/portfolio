@@ -8,10 +8,42 @@ p {
 	margin-left: 75px;
 	margin-top: 125px;
 	padding-left: 18px;
+
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(30,30,30);
+}
+
+li {
+	float: left;
+	padding: 8px;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(215,215,215);
+}
+
+li a:hover {
+	color: Tomato;
+}
+
+li a:link {
+	text-decoration: none;
 }
 
 h1 {
-	color: rgb(230,230,230);
+	color: rgb(255,255,255);
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
+}
+
+video {
+	padding: 25px;
+	align-items: left;
 }
