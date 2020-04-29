@@ -1,4 +1,7 @@
-body {background-color: rgb(14,14,16);}
+body {
+	background-color: rgb(14,14,16);
+	padding-bottom: 250px;
+}
 
 p {
 	color: rgb(240,240,240);
@@ -8,7 +11,18 @@ p {
 	margin-left: 75px;
 	margin-top: 125px;
 	padding-left: 18px;
+	font-size: 25px;
+	width: 550px;
+}
 
+p a:link, p a:visited {
+	text-decoration: none;
+	color: rgb(240,240,240);
+}
+
+p a:hover, p a:active {
+	text-decoration: none;
+	color: Tomato;
 }
 
 ul {
@@ -27,10 +41,13 @@ li a {
 	padding: 8px;
 	font-family: Impact, Charcoal, sans-serif;
 	color: rgb(215,215,215);
+	font-size: 18px;
+	transition: color 0.2s, font-size 0.25s;
 }
 
 li a:hover {
 	color: Tomato;
+	font-size: 22px;
 }
 
 li a:link {
@@ -57,4 +74,8 @@ video {
 
 hr {
 	margin: 75px;
+}
+
+img {
+	padding-left: 85px;
 }
