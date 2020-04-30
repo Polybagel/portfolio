@@ -118,3 +118,9 @@ img {
   margin: auto;
   padding: 50px;
 }
+
+.pfp {
+	display: block;
+	position: relative;
+	left: 40.6%;
+}
