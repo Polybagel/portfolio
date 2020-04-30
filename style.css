@@ -73,11 +73,6 @@ h2 {
 	margin-top: 75px;
 }
 
-video {
-	padding: 25px;
-	align-items: left;
-}
-
 hr {
 	margin: 75px;
 }
@@ -91,5 +86,35 @@ img {
 	color: Tomato;
 }
 
+* {
+	box-sizing: border-box;
+}
 
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.centered {
+	text-align: center;
+	padding: 25px;
+	margin: 25px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+}
+
+.grid-item {
+  margin: auto;
+  padding: 50px;
+}
